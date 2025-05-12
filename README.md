@@ -48,9 +48,13 @@ gcc KittyDisassembler.c -o KittyDisassembler -lcapstone
 
  ## Options:
 Option	Description
+
 -h	Display ELF file headers (class, endian, OS/ABI, etc.)
+
 -s	Display section headers (name, type, address, offset, size, etc.)
+
 -d	Disassemble the .text section using Capstone
+
 -all	Display everything: headers, sections, and disassembly
 
     ⚠️ The target file must be a valid 64-bit ELF binary.
