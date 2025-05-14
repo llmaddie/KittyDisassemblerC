@@ -40,13 +40,14 @@ brew install capstone
 gcc KittyDisassembler.c -o KittyDisassembler -lcapstone
 ```
 
-### 🚀 Usage
+### 🚀 Usage
 
 ```bash
 ./medobjdump [option] <ELF file>
 ```
 
- ## Options:
+## Options
+
 Option	Description
 
 -h	Display ELF file headers (class, endian, OS/ABI, etc.)
