@@ -395,7 +395,7 @@ void extract_ascii_strings(unsigned char *data, size_t size) {
             start = i;
         } else if ((!isprint(data[i]) || i == size - 1)) {
             if (in_string && (i - start) >= 4) {
-                printf("  %08zx: ", start);
+                printf("  %08lx: ", (unsigned long)start);
                 for (int j = start; j < (i == size - 1 ? i + 1 : i); j++) {
                     printf("%c", isprint(data[j]) ? data[j] : '.');
                 }
