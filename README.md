@@ -37,13 +37,13 @@ brew install capstone
 ### 🔧 Compilation
 
 ```bash
-gcc KittyDisassembler.c -o KittyDisassembler -lcapstone
+gcc KittyDisassembler.c -o KittyDisassembler  -ljson-c -lcapstone
 ```
 
 ### 🚀 Usage
 
 ```bash
-./medobjdump [option] <ELF file>
+./kittyDisassembler [option] <ELF file>
 ```
 
  ## Options:
@@ -59,4 +59,4 @@ Option	Description
 
     ⚠️ The target file must be a valid 64-bit ELF binary.
 
-For Any questions or idea contact me at @human01x on telegram
+For Any questions or idea contact me at maddie@transgender.dev
