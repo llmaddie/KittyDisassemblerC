@@ -13,7 +13,7 @@ To compile and run `KittyDisassembler`, you need:
 - A C compiler like `gcc`
 - Capstone disassembly engine
 
-### ✅ Install Capstone
+###  Install Capstone
 
 #### On Debian/Ubuntu:
 
