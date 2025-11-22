@@ -1,4 +1,4 @@
-# 🛠️ KittyDisassembler
+#  KittyDisassembler
 
 **KittyDisassembler** is a lightweight ELF file analyzer and disassembler written in C. It replicates some of the essential features of GNU `objdump`, such as viewing ELF headers, section headers, and disassembling binary code.
 
@@ -6,7 +6,7 @@ This tool is designed to help you understand the internal structure of ELF binar
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 To compile and run `KittyDisassembler`, you need:
 
@@ -34,13 +34,13 @@ brew install capstone
 ```
 
 
-### 🔧 Compilation
+###  Compilation
 
 ```bash
 gcc KittyDisassembler.c -o KittyDisassembler  -ljson-c -lcapstone
 ```
 
-### 🚀 Usage
+###  Usage
 
 ```bash
 ./kittyDisassembler [option] <ELF file>
@@ -57,7 +57,5 @@ Option	Description
 -d	Disassemble the .text section using Capstone
 
 -all	Display everything: headers, sections, and disassembly
-
-    ⚠️ The target file must be a valid 64-bit ELF binary.
 
 For Any questions or idea contact me at maddie@transgender.dev
